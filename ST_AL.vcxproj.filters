@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0830_B_탑.cpp">
+    <ClCompile Include="문법정리코드모음.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0906_부분수열의합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
