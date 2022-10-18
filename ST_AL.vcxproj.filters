@@ -15,7 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1014_B_최대힙.cpp">
+    <ClCompile Include="1019_B_최대힙.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1019_B_절대값힙.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1019_B_최소힙.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1019_B_N번째큰수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

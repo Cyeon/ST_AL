@@ -1,2 +1,3 @@
-﻿  1010_B_숨바꼭질.cpp
+﻿  1019_B_N번째큰수.cpp
+C:\Users\USER\source\repos\ST_AL\1019_B_N번째큰수.cpp(16,18): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
   ST_AL.vcxproj -> C:\Users\USER\source\repos\ST_AL\Debug\ST_AL.exe
