@@ -13,13 +13,13 @@ int main() {
 		int x;
 		cin >> x;
 
-		if (que.size() >= n) {
+		que.push(x);
+
+		if (que.size() > n) {
 			que.pop();
 		}
 
-		que.push(x);
 	}
-
 	que.swap(que);
 	cout << que.top();
 }
