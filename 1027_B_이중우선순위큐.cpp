@@ -1,8 +1,5 @@
 #include <iostream>
-#include <string>
-#include <queue>
 #include <map>
-#include <algorithm>
 #define endl "\n"
 using namespace std;
 
@@ -15,9 +12,6 @@ int main() {
 
 	for (int test = 0; test < t; test++)
 	{
-		/*priority_queue<int> maxQue;
-		priority_queue<int, vector<int>, greater<int>> minQue;*/
-		//int maxSize = 0, minSize = 0, size = 0;
 		map<int, int>map1; //first ¼ýÀÚ, second °¹¼ö
 
 		int k;
@@ -32,36 +26,31 @@ int main() {
 
 			if (str == "I") {
 				if (map1.find(a) != map1.end()) {
-					iter = map1.find(a);
-					map1.erase(a);
-					map1.insert(make_pair(a, ++iter->second));
+					map1[a] += 1;
 				}
 				else {
-					map1.insert(a, 1);
+					map1.insert(make_pair(a, 1));
 				}
-				/*maxQue.push(a);
-				minQue.push(a);
-				size++;*/
 			}
 			else if (str == "D") {
 				if (map1.empty()) { continue; }
-				//if (size == 0) { continue; }
-				//size--;
-				if (a == 1) {
+				if (a == -1) {
 					iter = map1.begin();
-					map1.erase(iter);
-					//maxSize++;
-				}
-				else if (a == -1) {
-					iter = map1.end();
-					map1.erase(iter);
-					/*if (size == 0) {
-						maxSize++;
+					if (iter->second > 1) {
+						map1[iter->first] -= 1;
 					}
-					else
-					{
-						minSize++;
-					}*/
+					else {
+						map1.erase(iter);
+					}
+				}
+				else if (a == 1) {
+					iter = --map1.end();
+					if (iter->second > 1) {
+						map1[iter->first] -= 1;
+					}
+					else {
+						map1.erase(iter);
+					}
 				}
 			}
 		}
@@ -69,38 +58,15 @@ int main() {
 			cout << "EMPTY" << endl;
 		}
 		else {
-			iter = map1.begin();
+			iter = --map1.end();
 			if (map1.size() == 1) {
 				cout << iter->first << " " << iter->first << endl;
 			}
 			else {
 				cout << iter->first << " ";
-				iter = map1.end();
+				iter = map1.begin();
 				cout << iter->first << endl;
 			}
-
 		}
-
-		/*if (size == 0) {
-			cout << "EMPTY" << endl;
-		}
-		else {
-
-			for (int j = 0; j < maxSize; j++)
-			{
-				maxQue.pop();
-			}
-
-			for (int j = 0; j < minSize; j++)
-			{
-				minQue.pop();
-			}
-
-			int max = maxQue.top();
-			int min = minQue.top();
-
-			cout << max << " " << min << endl;
-		}*/
 	}
-
 }
