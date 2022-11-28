@@ -1,2 +1,3 @@
-﻿  1031_B_문제추천시스템ver1.cpp
+﻿  1127_B_단어정렬.cpp
+C:\Users\USER\source\repos\ST_AL\1127_B_단어정렬.cpp(22,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   ST_AL.vcxproj -> C:\Users\USER\source\repos\ST_AL\Debug\ST_AL.exe
