@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1127_B_나이순정렬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1127_B_단어정렬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1130_B_제로.cpp">
+    <ClCompile Include="220102_B_폴리오미노.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
