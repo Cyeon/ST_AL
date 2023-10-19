@@ -54,18 +54,5 @@ int main() {
 		}
 	}
 
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < m; j++)
-		{
-			if (visited[i][j] == false && tomato[i][j] == 0) {
-				cout << endl << -1 << endl;
-				return 0;
-			}
-			cout << tomato[i][j] << " ";
-		}
-		cout << endl;
-	}
-
 	cout << day;
 }
