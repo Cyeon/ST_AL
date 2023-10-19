@@ -1,2 +1,5 @@
-﻿  230105_B_토마토.cpp
+﻿  개인정보 수집 유효기간.cpp
+C:\Users\USER\source\repos\ST_AL\개인정보 수집 유효기간.cpp(94,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER\source\repos\ST_AL\개인정보 수집 유효기간.cpp(99,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER\source\repos\ST_AL\개인정보 수집 유효기간.cpp(111,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   ST_AL.vcxproj -> C:\Users\USER\source\repos\ST_AL\Debug\ST_AL.exe
