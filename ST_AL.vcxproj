@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="231024_P_베스트앨범.cpp" />
+    <ClCompile Include="231024_P_의상.cpp" />
+    <ClCompile Include="231024_P_전화번호목록.cpp" />
+    <ClCompile Include="231024_P_폰켓몬.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
