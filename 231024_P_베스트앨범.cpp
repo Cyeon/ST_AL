@@ -15,9 +15,9 @@ public:
 	}
 
 	bool operator <(SongData& songData) {
-		if (this->plays == songData.plays)
-			return this->songNum < songData.songNum;
-		return this->plays > songData.plays;
+		if (plays == songData.plays)
+			return songNum < songData.songNum;
+		return plays > songData.plays;
 	}
 
 };
@@ -39,7 +39,7 @@ public:
 	}
 
 	bool operator<(GenreData& g) {
-		return this->plays > g.plays;
+		return plays > g.plays;
 	}
 };
 

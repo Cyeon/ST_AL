@@ -19,10 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="231024_P_베스트앨범.cpp" />
-    <ClCompile Include="231024_P_의상.cpp" />
-    <ClCompile Include="231024_P_전화번호목록.cpp" />
-    <ClCompile Include="231024_P_폰켓몬.cpp" />
+    <ClCompile Include="231024_P_베스트앨범.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="231031_P_순위.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="소스1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
